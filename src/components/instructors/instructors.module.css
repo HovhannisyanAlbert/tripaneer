@@ -1,0 +1,37 @@
+.instructor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    height: 250px;
+
+}
+
+.healthContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.healthContainer>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.barbara{
+    display: flex;
+    margin-top: 15px;
+
+
+}
+
+
+.meet>img{
+    border-radius: 40px;
+    height: 80px;
+    margin: 0 8px 0 0;
+    width: 80px;
+}
+
+

@@ -1,0 +1,70 @@
+.program {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.header {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.programImg {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+.programImg > img {
+  width: 25px;
+  height: 25px;
+}
+
+.header > div {
+  display: flex;
+  gap: 5px;
+}
+img {
+  width: 20px;
+}
+
+
+
+.overview {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.overview > span {
+  color: #515355;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.itinerary {
+  margin-top: 25px;
+}
+
+.week {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ 
+}
+
+.day > span {
+  color: #515355;
+  font-size: 14px;
+  line-height: 24px;
+}

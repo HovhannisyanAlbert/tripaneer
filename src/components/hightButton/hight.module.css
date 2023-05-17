@@ -1,0 +1,22 @@
+.hight{
+  background-color: transparent !important; 
+    display: flex;   
+    margin-top: 15px;   
+    justify-content: end;
+    padding: 0 !important;
+}
+
+.hideButton{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #7C8086;
+  
+}
+
+.hideButton:hover{
+  background-color: black;
+}
+.hideButton>img{
+  width: 10px;
+}

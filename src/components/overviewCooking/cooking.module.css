@@ -1,0 +1,41 @@
+.cooking {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+}
+.overview {
+  text-transform: uppercase;
+  color: #abaeb1;
+}
+.luxury {
+  width: 458px;
+}
+
+.luxury > h2 {
+  font-size: 24px;
+}
+
+.listing {
+  display: flex;
+  text-align: center;
+  background: #dcf8f4;
+  border-radius: 6px;
+  color: #7c8086;
+  padding: 16px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ececec;
+}
+
+.description {
+  display: flex;
+  
+}
+
+.description > span {
+  color: #515355;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 24px;
+}

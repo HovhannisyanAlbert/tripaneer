@@ -1,0 +1,24 @@
+.features{
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+}
+
+.containerFeatures{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerFeatures>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 7px;
+}
+
+
+.featuresMenu{
+    display: flex;
+    justify-content: space-between;
+}

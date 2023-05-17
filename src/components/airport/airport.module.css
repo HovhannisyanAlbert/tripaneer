@@ -1,0 +1,63 @@
+.recommended{
+    display: flex;
+    gap: 20px;
+}
+
+.cia{
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F7F7;
+    border: solid 2px #ECECEC;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    flex-basis: 100%;
+}
+
+.champino{
+border-bottom: 1px solid #ECECEC;
+}
+
+.transfer{
+    display: flex;
+    margin-top: 8px;
+    gap: 7px;
+}
+
+.transfer>span{
+    color: #02BF9B;
+}
+
+.driving{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.driving>div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.arrival{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 10px;
+}
+
+.airDescription{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.airDescription>div{
+    background: #F7F7F7;
+    color: #7C8086;
+    padding: 16px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ECECEC;
+    line-height: 140%;
+}

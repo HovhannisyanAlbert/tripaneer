@@ -1,0 +1,9 @@
+.special{
+    background: #F7F7F7;
+    color: #7C8086;
+    padding: 16px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ECECEC;
+    line-height: 140%;
+}

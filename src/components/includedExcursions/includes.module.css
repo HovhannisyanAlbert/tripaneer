@@ -1,0 +1,33 @@
+.included{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.includedContainer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.bagImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bagImage>img{
+    width: 30px;
+    height: 30px;
+}
+
+.includedContainer>div{
+    display: flex;
+    gap: 10px;
+}
+
+.manuIncluded{
+    display: flex;
+    flex-direction: column;
+  
+}

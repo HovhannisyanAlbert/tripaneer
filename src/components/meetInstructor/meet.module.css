@@ -1,0 +1,47 @@
+.meet{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.meet>h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+
+    color: #202224;
+}
+
+.meetImg>img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    margin-right: 10px;
+    flex-shrink: 0;
+    border: solid 3px #fff;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.barbara{
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+}
+
+.barbara>strong{
+    font-size: 14px;
+    color: #7C8086
+}
+
+.barbara>a{
+    color: #02BF9B;
+    text-decoration: underline;
+}

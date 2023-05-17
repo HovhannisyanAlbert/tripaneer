@@ -1,0 +1,34 @@
+.high {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+}
+.high h3 {
+  margin: 8px 0;
+}
+ul {
+  padding: 18px;
+  padding-top: 0;
+  margin: 0;
+}
+ul > li {
+  color: #515355;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+}
+
+.border {
+  border-top: 1px solid #ececec;
+  padding-top: 23px;
+}
+
+.english {
+  color: #202224;
+}
+
+.highBox{
+    display: flex;
+    gap: 8px;
+}
+

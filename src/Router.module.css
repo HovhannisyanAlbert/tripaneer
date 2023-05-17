@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.container > div {
+    background-color: #fff
+}
+
+
+.box {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 50px;
+    background-color: transparent !important;
+}
+
+.box > div > div {
+    background-color: #fff;
+    padding: 18px;
+}
