@@ -1,0 +1,32 @@
+.review_block{
+    margin-top: 20px;
+    color: #ABAEB1;
+}
+.review_stars{
+    display: flex;
+    justify-content: space-between;
+
+}
+.review_stars > img {
+    width: 80px;
+    margin-top: -27px;
+}
+.review_stars > span {
+    color: #02BF9B;
+}
+.text_block{
+   padding-left: 3vw; 
+}
+.bold{
+    font-weight: 800;
+    display: block;
+    padding-left: 3vw;
+    
+}
+span{
+    color: #515355;
+}
+p:hover{
+    color: #515355;
+    cursor: pointer;
+}

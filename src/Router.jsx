@@ -18,6 +18,7 @@ import Spa from './components/spa/Spa'
 import WhatsIncluded from './components/whatsIncluded/WhatsIncluded'
 import DontIncluded from './components/dontIncluded/DontIncluded'
 import Airport from './components/airport/Airport'
+import ShareList from './components/RightComponents/shareList/ShareList'
 
 const Router = () => {
   return (
@@ -43,8 +44,8 @@ const Router = () => {
     <WhatsIncluded />
     <DontIncluded />
     <Airport />
-      </div>
-      <div>example</div>
+    </div>
+      <ShareList />
     </div>
     </div>
   )

@@ -1,0 +1,45 @@
+.pack{
+    padding: 20px 35px;
+    transition: all 500 ms ease;
+    position: relative;
+    cursor: pointer;
+}
+.pack:hover{
+    background-color: #0bbd9c41;;
+}
+.person{
+    display: flex;
+    gap:5vw;
+}
+.private_txt{
+    display: flex;
+    gap:3vw;
+    font-size: 12px;
+}
+.btns{
+    display: flex;
+
+}
+.btns > div:hover{
+    border: 1px solid #02BF9B;
+    color: #02BF9B;
+}
+
+.btn{
+    cursor: pointer;
+    flex: 1;
+    position: relative;
+    z-index: 9;
+    text-align: center;
+    background: 0 0;
+    border: 1px solid #D9D9D9;
+    color: #7C8086;
+    padding: 4px 3px 3px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 125%;
+}

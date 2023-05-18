@@ -1,0 +1,33 @@
+.list_block{
+    display: flex;
+    flex-direction: column;
+}
+.share_block{
+    display: flex;
+    gap: 1vw;
+    padding: 2px 3px;
+}
+.share_block > h2 {
+    font-size: clamp(12px,2vw,26px);
+}
+.share_block > img{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+.social_icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.social_icons > div{
+    border: 1px solid #DCDDDE;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 4px;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}

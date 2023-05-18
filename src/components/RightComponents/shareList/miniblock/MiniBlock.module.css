@@ -1,0 +1,8 @@
+.mini_block{
+    display: flex;
+    justify-content: space-between;
+}
+.mini_block > img {
+    width: 65px;
+    margin-top: -18px;
+}

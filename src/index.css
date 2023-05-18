@@ -23,3 +23,35 @@ img {
 h3 {
   margin: 0;
 }
+.selected {
+  border: 1px solid #02BF9B;
+  color: #02BF9B;
+  cursor: pointer;
+  flex: 1;
+  position: relative;
+  z-index: 9;
+  text-align: center;
+  background: 0 0;
+  padding: 4px 3px 3px;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 125%;
+}
+ 
+
+
+.radio{
+  position: absolute;
+  top: 35px;
+  left: 10px;
+}
+.packSel{
+  background-color: #0bbd9c41;
+  padding: 20px 35px;
+  transition: all 500 ms ease;
+  position: relative;
+}
