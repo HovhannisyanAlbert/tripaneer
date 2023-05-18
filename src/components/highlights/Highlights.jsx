@@ -38,6 +38,7 @@ const Highlights = () => {
      
      <div className={style.border}> </div>
 
+     <div className={style.highContainer}>
      <div className={style.highBox}>
       <img src={document} alt="document"/>
        <span>
@@ -69,7 +70,8 @@ const Highlights = () => {
        <span>
          Airport transfer included: Leonardo da Vinci–Fiumicino Airport
        </span>
-     </div> 
+     </div>
+     </div>
      
 
    

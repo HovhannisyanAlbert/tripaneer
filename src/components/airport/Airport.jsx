@@ -4,6 +4,7 @@ import styles from "./airport.module.css";
 import location from "../../images/location.png";
 import right from "../../images/right.png";
 import top from "../../images/top.png";
+import air from "../../images/air.png"
 
 const Airport = () => {
   return (
@@ -16,12 +17,13 @@ const Airport = () => {
         <img src={top} width={15} height={15} alt="top" />
       </div>
 
-      <h3>Recommended Airports</h3>
+      <h3 className={styles.textRec}>Recommended Airports</h3>
 
       <div className={styles.recommended}>
         <div className={styles.cia}>
-          <div>
+          <div className={styles.airImg}>
             <h3> CIA </h3>
+            <img src={air} alt="air"/>
           </div>
 
           <div className={styles.champino}>
@@ -35,8 +37,9 @@ const Airport = () => {
         </div>
 
         <div className={styles.cia}>
-          <div>
+          <div className={styles.airImg}>
             <h3> FCO </h3>
+            <img src={air} alt="air"/>
           </div>
 
           <div className={styles.champino}>

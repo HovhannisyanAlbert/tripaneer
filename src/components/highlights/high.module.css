@@ -32,3 +32,10 @@ ul > li {
     gap: 8px;
 }
 
+
+
+.highContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
