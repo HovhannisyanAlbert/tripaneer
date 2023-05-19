@@ -1,0 +1,14 @@
+.block{
+    margin-top: 20px;
+}
+.block > h3 {
+    color: #202224;
+    font-weight: 600;
+    margin: 10px 0 20px 0;
+    line-height: 125%;
+}
+.icons{
+    margin-top: 15px;
+    display: flex;
+    gap: 25px;
+}

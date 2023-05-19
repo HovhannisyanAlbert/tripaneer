@@ -18,7 +18,7 @@ import Spa from './components/spa/Spa'
 import WhatsIncluded from './components/whatsIncluded/WhatsIncluded'
 import DontIncluded from './components/dontIncluded/DontIncluded'
 import Airport from './components/airport/Airport'
-import ShareList from './components/RightComponents/shareList/ShareList'
+import ShareList from './components/rightComponent/shareList/ShareList'
 
 const Router = () => {
   return (

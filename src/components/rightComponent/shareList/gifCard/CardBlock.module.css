@@ -1,0 +1,42 @@
+.card{
+    margin-top: 20px;
+}
+.gift{
+    display: flex;
+    justify-content: center;
+
+}
+.gift > img {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+.gift_two{
+    display: flex;
+}
+.gift_two > img{
+    width: 40%;
+}
+.gift_two > span {
+    align-self: center;
+}
+.btn{
+    padding-left: 40%;
+    cursor: pointer;
+    display: flex;
+    background: 0 0;
+    font-weight: 700;
+    height: auto;
+    gap: 3px;
+    transition: all 500ms ease;
+}
+.btn > span{
+    color: #02BF9B;
+}
+.btn:hover{
+    gap: 10px;
+}
+.right{
+    font-weight: 900;
+   
+}

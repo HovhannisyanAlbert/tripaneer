@@ -1,0 +1,32 @@
+.image_block{
+    margin-top: 20px;
+
+}
+.image_block > img {
+    width: 100%;
+}
+.image_block_txt{
+    font-size: 13px;
+    padding: 20px;
+}
+.image_block_txt > b{
+    color: #202224;
+}
+.image_block_txt > hr {
+    margin: 15px 0;
+    border: none;
+    border-top: 1px solid #ECECEC;
+}
+.image_block_down{
+    margin-bottom: 20px;
+    color: #ABAEB1;
+}
+.img_block_icons{
+    padding: 15px 1px;
+}
+.location{
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
